@@ -16,6 +16,13 @@ function draw() {
   fill('lightgray');
   rect(100,280,100,100);
   fill('gray');
+
+  fill('grey');
+  triangle(100,280,200,280,150,200);
+
+  noStroke();
+  fill('grey');
+  rect(120,330,25,50);
   // VERVANG DEZE REGEL door een regel die het dak tekent
   // teken de deur
   noStroke();

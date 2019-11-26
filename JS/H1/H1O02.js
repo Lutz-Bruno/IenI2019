@@ -1,8 +1,8 @@
-function setup() {
-  canvas = createCanvas(450,450);
-  background('darkred');
-  canvas.parent('processing');
-  noLoop();
+canvas = createCanvas(450,450);
+background('darkred');
+canvas.parent('processing');
+noLoop();
+                function setup() {
 }
 
 function draw() {
